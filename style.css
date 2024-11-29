@@ -1,0 +1,92 @@
+body {
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  color: #22427C;
+  font-style: italic;
+  font-weight: bold;
+  text-align: right;
+  border: 5px solid;
+  border-color: black;
+  background-color: #82C46C;
+}
+h5 {
+  text-align: right;
+  padding-top: 0px;
+}
+h2 {
+  color: #149414;
+  text-decoration-line: underline;
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+}
+.imagine{
+margin-left: 20px;
+}
+.structura {
+  border: 1px solid;
+  border-color: #F4661B;
+  background-color: #e1f5fc;
+}
+table, td, th {  
+  border: 3px solid #4138bc;
+  text-align: left;
+}
+
+table {
+  border-collapse: collapse;
+  width: 50%;
+  margin-left: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+th, td {
+  padding: 3px;
+}
+th {
+  text-align: center;
+  font-style: inherit;
+}
+.imagini {
+  display: block; 
+  text-align: center; 
+  width: 100%; 
+  margin: auto; 
+}
+.imagini img {
+  border-radius: 10%;
+  margin: 10px; 
+}
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  text-align: center; 
+  background-color: #46574d;
+}
+
+.mySlides {
+  display: none; 
+  width: 100%; 
+  height: auto; 
+}
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active {
+  background-color: #717171;
+}
+.slideshow-container .dot-container {
+  text-align: center;
+  margin-top: 10px; 
+}
